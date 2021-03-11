@@ -14,9 +14,9 @@ while flag == True :
         print("Invalid! Enter only digits 1-20")
         break
     elif int(guess) < num :
-        print("Too low, try again:", end = "")
+        print("Too low, try again: ", end = "")
     elif int(guess) > num :
-        print("Too high, try again:", end = "")
+        print("Too high, try again: ", end = "")
     else :
-        print("Correct...my number is" + guess)
+        print("Correct...my number is " + guess)
         flag == False
